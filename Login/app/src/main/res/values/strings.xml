@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="name">Abere Truphenah</string>
+    <string name="reg">C026&#8211;01&#8211;0981/2022</string>
+    <string name="username">Enter Username</string>
+    <string name="password">Enter Password</string>
+    <string name="button">Login</string>
+</resources>
