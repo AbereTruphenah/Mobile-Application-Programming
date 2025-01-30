@@ -9,6 +9,7 @@
     android:background="@drawable/authentication"
     tools:context=".MainActivity">
 
+    <!-- User's name -->
     <TextView
         android:id="@+id/textView"
         android:layout_width="369dp"
@@ -22,6 +23,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!-- User Registration number-->
     <TextView
         android:id="@+id/textView2"
         android:layout_width="369dp"
@@ -35,6 +37,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
+    <!-- Enter Username-->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/username_input_layout"
         android:layout_width="393dp"
@@ -54,6 +57,7 @@
             android:inputType="text" />
     </com.google.android.material.textfield.TextInputLayout>
 
+    <!-- Enter Password-->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/password_input_layout"
         android:layout_width="391dp"
@@ -71,6 +75,7 @@
             android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
 
+    <!-- Login Button-->
     <Button
         android:id="@+id/button"
         android:layout_width="122dp"
